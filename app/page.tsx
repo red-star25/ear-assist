@@ -1228,7 +1228,6 @@ export default function HomePage() {
       const audioElement = document.createElement("audio");
 
       audioElement.autoplay = true;
-      audioElement.playsInline = true;
 
       audioRef.current = audioElement;
 
